@@ -6,7 +6,7 @@ export default function Nav(props) {
     return (
         <>
             <nav className="nav" style={ backgroundStyle }>
-                <a className="header" style={ colorStyle }>Where in the world?</a>
+                <h1 className="header" style={ colorStyle }>Where in the world?</h1>
                 <button className="changeMode" onClick={props.handleClick} style={colorStyle}>
                     { props.mode ? <i className="far fa-moon"></i> : <i className="far fa-sun"></i>}
                     <p className="modeText">Dark Mode</p>

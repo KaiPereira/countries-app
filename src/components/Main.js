@@ -20,7 +20,7 @@ export default function Main(props) {
     props.handleChange(formData.firstName)
 
     return (
-        <>  
+        <main>  
             <div className="filter">
                 <div className="shadow">
                     <div 
@@ -53,6 +53,6 @@ export default function Main(props) {
                     </div>
                 </div>
             </div>
-        </>
+        </main>
     )
 }
